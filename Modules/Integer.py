@@ -3,4 +3,4 @@
 import math
 
 num = float(input('Enter a any number: '))
-print('The integer portion is {}'.format(math.floor (num)))
+print('The integer portion is {}'.format(math.trunc (num)))

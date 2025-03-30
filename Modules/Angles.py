@@ -3,4 +3,4 @@
 import math 
 
 num = float(input('Enter a number: '))
-print('Your sine is {:.2f}, your cosine is {:.2f} and your tangent is {:.2f}'.format(math.sin(num), math.cos(num), math.tan(num)))
+print('The angle {}° has sine of {:.2f}, cosine of {:.2f} and tangent of {:.2f}'.format(num, math.sin(math.radians(num)), math.cos(math.radians(num)), math.tan(math.radians(num))))
