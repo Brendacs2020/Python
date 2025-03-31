@@ -1,0 +1,5 @@
+name = str(input('What is your full name? ')).strip()
+print('Your name in uppercase is ', name.upper())
+print('Your name is lowercase is ', name.lower())
+print('Your full name has {} letters'.format(len(name) - name.count(' ')))
+print('Your first name has {} letters'.format(len(name.split()[0])))
