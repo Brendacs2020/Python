@@ -1,6 +1,6 @@
-import random
+from random import randrange
 
-num = random.randrange(0,5)
+num = randrange(0,5)
 choice = int(input('Choise a number tetween 0 and 5: '))
 if num == choice:
     print('Congratulation, you got ir right')
